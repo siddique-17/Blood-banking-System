@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+
+        header {
+            background-color: #c0392b;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero .btn {
+            margin-top: 20px;
+            background: white;
+            color: #c0392b;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .donation-info {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .donation-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .donation-content img {
+            width: 400px;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .donation-content p {
+            max-width: 500px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        .btn.small {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        .compatibility-table {
+            margin-top: 40px;
+        }
+
+        .compatibility-table table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 90%;
+            background: #f1f1f1;
+        }
+
+        .compatibility-table th, .compatibility-table td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blood Donation & Request System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="donors.php">Find Donors</a>
+            <a href="register.html">Register as Donor</a>
+            <a href="request.php">Request Blood</a>
+            <a href="view_request.php">View Request</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Donate Blood, Save Lives</h2>
+        <p>Your one donation can save up to three lives. Join our community and make a difference.</p>
+        <a href="register.html" class="btn">Become a Donor</a>
+    </section>
+
+    <!-- Donation Information Section -->
+    <section class="donation-info">
+        <h2>Why Donate Blood?</h2>
+        <div class="donation-content">
+            <img src="images.png" alt="Blood Donation Image">
+            <div>
+                <p>
+                    Every two seconds, someone in need requires a blood transfusion. Blood donation is a simple,
+                    safe, and quick process that can greatly impact patients in surgeries, accident recovery,
+                    cancer treatment, and more. A healthy person can donate blood every 3 months and help ensure
+                    a steady supply in hospitals.
+                </p>
+                <p>
+                    Donating blood not only helps patients survive but also helps your body by stimulating the
+                    production of new blood cells, improving cardiovascular health, and reducing harmful iron
+                    stores in the body.
+                </p>
+                
+            </div>
+        </div>
+
+        <!-- Blood Compatibility Table -->
+        <div class="compatibility-table">
+            <h3>Compatible Blood Type Donors</h3>
+            <table>
+                <tr>
+                    <th>Blood Type</th>
+                    <th>Donate To</th>
+                    <th>Receive From</th>
+                </tr>
+                <tr><td>A+</td><td>A+, AB+</td><td>A+, A-, O+, O-</td></tr>
+                <tr><td>O+</td><td>O+, A+, B+, AB+</td><td>O+, O-</td></tr>
+                <tr><td>B+</td><td>B+, AB+</td><td>B+, B-, O+, O-</td></tr>
+                <tr><td>AB+</td><td>AB+</td><td>Everyone</td></tr>
+                <tr><td>A-</td><td>A+, A-, AB+, AB-</td><td>A-, O-</td></tr>
+                <tr><td>O-</td><td>Everyone</td><td>O-</td></tr>
+                <tr><td>B-</td><td>B+, B-, AB+, AB-</td><td>B-, O-</td></tr>
+                <tr><td>AB-</td><td>AB+, AB-</td><td>AB-, A-, B-, O-</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Blood Donation System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
