@@ -1,6 +1,6 @@
 # 🩸 Blood Booking System
 
-A web-based application that allows users to **book blood donations**, request specific **blood groups**, and manage records for both **donors and recipients**. Built using **Java** for backend logic and **MySQL** for database management.
+A web-based application that allows users to **book blood donations**, request specific **blood groups**, and manage records for both **donors and recipients**. Built using **PHP** for backend logic and **MySQL** for database management.
 
 ---
 
@@ -19,11 +19,9 @@ A web-based application that allows users to **book blood donations**, request s
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS (basic interface)  
-- **Backend:** Java (Servlets or Core Java-based Logic)  
+- **Backend:** PHP 
 - **Database:** MySQL  
-- **Tools:** XAMPP / MySQL Workbench, Eclipse / IntelliJ
+- **Tools:** XAMPP 
 
----
 
-## 📂 Project Structure
 
